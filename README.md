@@ -6,12 +6,14 @@ ImageMind is a **Flask-based Visual Question Answering (VQA)** system that uses 
 - Get top AI-powered answers 🎯
 The system combines **ResNet50** for image feature extraction with a **language model** to process questions and predict answers.
 
+
 **🚀 Features**
 - 🖼️ Image understanding via pre-trained ResNet50 CNN
 - 💬 Question processing with tokenization and sequence padding
 - 🧠 Custom trained VQA model to combine image and question features
 - 🌐 Interactive Flask web interface for uploading images and submitting questions
 - 🔥 Real-time predictions with top 5 answers and confidence scores
+
 
 **🗂️ Project Structure**
 - app.py — Flask backend and prediction logic
@@ -21,6 +23,7 @@ The system combines **ResNet50** for image feature extraction with a **language 
 - question_tokenizer.pkl — Tokenizer for questions
 - answer_mappings.pkl — Answer <-> index mappings
 - README.md — Project documentation
+
 
 **🛠️ Installation & Setup**
 
@@ -34,10 +37,12 @@ The system combines **ResNet50** for image feature extraction with a **language 
 **3️⃣ Run the Flask app**
 - python app.py
 
+
 **📸 How to Use**
 - Click Upload Image and select your image file (PNG, JPG, JPEG).
 - Type your question in the text box below.
 - Press Submit to get answers.
+
 
 **🧑‍💻 Technologies Used**
 | Component                | Technology                   |
@@ -46,15 +51,17 @@ The system combines **ResNet50** for image feature extraction with a **language 
 | Language Processing      | Keras Tokenizer + Padding    |
 | Model Architecture       | CNN + LSTM Fusion            |
 | Backend                  | Flask Web Framework          |
-| Deployment               | Localhost / Cloud (optional) |
+
 
 **🤝 Contributing**
 Contributions, issues, and feature requests are welcome!
+
 
 **📧 Contact**
 
 Vishal Yadav
 - Email: vy5068@gmail.com
 - GitHub: https://github.com/yadavJI-vishal
+
 
 Feel free to fork the repo and submit a pull request.
