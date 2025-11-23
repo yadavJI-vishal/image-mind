@@ -1,4 +1,4 @@
-📌** Project Overview **
+📌**Project Overview**
 ImageMind is a **Flask-based Visual Question Answering (VQA)** system that uses deep learning to understand images and answer natural language questions about them.
 - Upload any image 📷
 - Ask a question about it ❓
