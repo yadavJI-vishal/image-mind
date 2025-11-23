@@ -1,2 +1,11 @@
-# image-mind
-Image Mind is an AI-powered Visual Question Answering system that analyzes an image and answers natural-language questions about it. It combines deep learning, computer vision, and natural language processing to understand both images and text.
+📌 Project Overview
+
+ImageMind is a Flask-based Visual Question Answering (VQA) system that uses deep learning to understand images and answer natural language questions about them.
+
+Upload any image 📷
+
+Ask a question about it ❓
+
+Get top AI-powered answers 🎯
+
+The system combines ResNet50 for image feature extraction with a language model to process questions and predict answers.
