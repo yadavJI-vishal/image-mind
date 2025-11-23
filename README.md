@@ -14,17 +14,13 @@ The system combines **ResNet50** for image feature extraction with a **language 
 - 🔥 Real-time predictions with top 5 answers and confidence scores
 
 **🗂️ Project Structure**
-
-ImageMind/
-├── app.py # Flask backend and prediction logic
-├── static/ # Static files (uploads, CSS, etc.)
-├── templates/ # HTML templates for Flask UI
-├── vqa_model_50k.h5 # Trained VQA model (use Git LFS for large file)
-├── question_tokenizer.pkl # Tokenizer for questions
-├── answer_mappings.pkl # Answer <-> index mappings
-└── README.md # Project documentation
-
-
+app.py — Flask backend and prediction logic
+static/ — Static files (uploads, CSS, etc.)
+templates/ — HTML templates for Flask UI
+vqa_model_50k.h5 — Trained VQA model (use Git LFS for large file)
+question_tokenizer.pkl — Tokenizer for questions
+answer_mappings.pkl — Answer <-> index mappings
+README.md — Project documentation
 
 **🛠️ Installation & Setup**
 **1️⃣ Clone the repository**
